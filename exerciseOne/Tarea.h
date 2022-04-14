@@ -2,12 +2,13 @@
 #include<iostream>
 #include<string>
 #include<sstream>
+#include"TipoDeDatoFecha.h"
 using namespace std;
 class Tarea
 {
 private:
 	int Id;
-	//fecha
+	fecha FechaDeCreacion;//fecha
 	string Nombre;
 	int PersonaRequeridas;
 	int TiempoEstimado;

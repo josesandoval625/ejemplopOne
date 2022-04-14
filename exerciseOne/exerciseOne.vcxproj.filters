@@ -24,6 +24,9 @@
     <ClCompile Include="Tarea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TipoDeDatoFecha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Persona.h">
