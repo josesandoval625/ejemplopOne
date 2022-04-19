@@ -1,5 +1,9 @@
 #include "TipoDeDatoFecha.h"
 
+Fecha::Fecha()
+{
+}
+
 Fecha::Fecha(int dia, Dia _dia, Mes _mes, int anio)
 	:DiaNumero(dia),DiaNombre(_dia),MesDelAnio(_mes),Anio(anio)
 {

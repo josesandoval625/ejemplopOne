@@ -22,18 +22,18 @@ public:
 	~Tarea();
 
 	int getId()const;
-	string getFechaDeCreacion()const;
+	string getFechaDeCreacion();
 	string getUrgencia()const;
 	int getPersonasRequeridas()const;
 	int getTiempoEstimado()const;
 	string getEstado()const;
 
-	void setFechaDeCracion(Fecha fecha);
+	//void setFechaDeCracion(Fecha fecha);
 	void setNombre(string nombre);
-	void setUrgencia(Urgencia urgencia);
+	void setUrgencia(Urgencia _urgencia);
 	void setPersonasRequeridas(int personasRequeridas);
 	void setTiempoDeEstado(int tiempoDeEstado);
-	void setEstado(Estado estado);
+	void setEstado(Estado _estado);
 
 	string getTareaDato();
 	//---

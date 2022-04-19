@@ -12,6 +12,7 @@ private:
 	Mes MesDelAnio;
 	int Anio;
 public:
+	Fecha();
 	Fecha(int dia, Dia _dia, Mes _mes, int anio);
 	~Fecha();
 	int getDiaNumero()const;
