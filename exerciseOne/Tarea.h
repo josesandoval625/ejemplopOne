@@ -36,6 +36,8 @@ public:
 	void setEstado(Estado estado);
 
 	string getTareaDato();
+	//---
+
 
 
 
