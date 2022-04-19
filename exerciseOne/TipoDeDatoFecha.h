@@ -10,19 +10,35 @@ private:
 	int DiaNumero;
 	Dia DiaNombre;
 	Mes MesDelAnio;
+<<<<<<< HEAD
 	int Anio;
+=======
+	int anio;
+>>>>>>> master
 public:
 	Fecha(int dia, Dia _dia, Mes _mes, int anio);
 	~Fecha();
 	int getDiaNumero()const;
 	string getDiaNombre()const;
+<<<<<<< HEAD
 	string getMesDelAnio()const;
+=======
+	string getMes()const;
+>>>>>>> master
 	int getAnio()const;
 
 	void setDiaNumero(const int& dia);
 	void setDiaNombre(const Dia& dia);
+<<<<<<< HEAD
 	void setMesDelAnio(const Mes& mes);
 	void setAnio(const int& anio);
 	string getData();
 };
 typedef struct Fecha fecha;
+=======
+	void setMes(const Mes& mes);
+	void setAnio(const int& anio);
+	string getData();
+
+};
+>>>>>>> master
