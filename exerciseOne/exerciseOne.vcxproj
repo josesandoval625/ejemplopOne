@@ -148,6 +148,7 @@
     <ClInclude Include="Persona.h" />
     <ClInclude Include="Tarea.h" />
     <ClInclude Include="TipoDeDatoFecha.h" />
+    <ClInclude Include="TipoDeDatoGeneral.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
